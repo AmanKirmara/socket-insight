@@ -1,0 +1,33 @@
+{
+  "name": "socket-insight",
+  "version": "1.0.0",
+  "description": "A real-time WebSockets debugger package for developers to monitor and interact with WebSocket connections effortlessly.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "websockets",
+    "debugger",
+    "real-time",
+    "monitoring"
+  ],
+  "author": "Aman Kirmara",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AmanKirmara/socket-insight.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AmanKirmara/socket-insight/issues"
+  },
+  "homepage": "https://github.com/AmanKirmara/socket-insight#readme",
+  "dependencies": {
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
